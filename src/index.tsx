@@ -78,7 +78,7 @@ export default class App extends React.Component<{}, State> {
           latitude: position.coords.latitude
         });
         var url: string =
-          "https://iapandora.nl/geigercounter/api/" +
+          "https://iapandora.nl/geigercounter2/api/" +
           this.state.longitude +
           "/" +
           this.state.latitude;
